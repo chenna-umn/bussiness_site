@@ -1,0 +1,490 @@
+/* 
+    Document   : custom
+    Created on : Jun 17, 2014, 7:47:34 PM
+    Author     : kiran
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body 
+{
+    background: #ddd url(../images/bg.jpg) repeat top left;
+}
+.carousel-inner > .item > img, .carousel-inner > .item > a > img
+{
+    width: 100%;
+    max-height: 550px;
+}
+.megamenu_drop
+{
+    color: #000;
+}
+.megamenu_dark_bar .megamenu 
+{
+    color: #000;
+}
+
+@media (min-width: 725px) 
+{
+    #menuBackHeigt
+        {
+           min-height: 121px;background: url(../img/01.jpg);
+        }
+    #menu
+    {
+        min-height: 121px;
+        position: absolute;
+        /*background-image: url('../images/bg.jpg');*/
+        background-color: #FFF;
+        opacity: 0.8;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        z-index: 999;
+        
+    }
+    
+    #menuAdmin
+    {
+        margin-top: 65px;
+    }
+}
+@media (max-width: 724px) 
+    {
+        #menuBackHeigt
+        {
+           min-height: 207px;background: url(../img/01.jpg);
+        }
+        
+        #directionsPanel
+        {
+            top: 207px;
+        }
+        #menu
+        {
+            min-height: 121px;
+            /*background-image: url('../images/bg.jpg');*/
+            background-color: #FFF;
+            opacity: 0.8;
+            width: 100%;
+            z-index: 1;
+            position: absolute;
+        }
+        #menu .page_wrapper
+        {
+            width: 100%;
+        }
+        #slide
+        {
+            /*display: none;*/
+        }
+        .carousel-inner > .item > img, .carousel-inner > .item > a > img
+        {
+            min-height: 500px;
+        }
+        .megamenu .dropdown_12columns,
+        .megamenu .dropdown_fullwidth 
+        {
+            width: 100%;
+        }
+        .carousel-caption
+        {
+            z-index: 0;
+        }
+        
+        #menuAdmin
+        {
+            margin-top: 5px;
+        }
+    }
+#logo
+{
+    max-height: 130px;
+    max-width: 170px;
+    margin-top: 10px;
+}
+#mainmenu .noSubMenu a:hover
+{
+    color: #BADA55;
+}
+#mainmenu .noSubMenu .dropdown_fullwidth a:hover
+{
+    color: #BADA55;
+}
+.megamenu img
+{
+    margin-bottom: 0px;
+    
+}
+.megamenu .thumbnail
+{
+    transition: none;
+    background-color: #FFF;
+}
+#lbranchimg .img_height_drop, #lbranchimg1 .img_height_drop, #lbranchimg2 .img_height_drop
+{
+    max-height: 150px;
+    width: 100%;
+    border-radius: 4px;
+    opacity: 1;
+}
+
+ 
+.thumbnail {
+    position:relative;
+    overflow:hidden;
+}
+ 
+.caption {
+    position:absolute;
+    top:0;
+    right:0;
+    background:rgba(0, 0, 0, 0.6);
+    width:100%;
+    height:100%;
+    padding:2%;
+    display: none;
+    text-align: left;
+    color:#fff !important;
+    z-index:2;
+}
+
+.thumbHead
+{
+    color: #A2AB58;
+}
+.label-success1:hover, .label-success2:hover
+{
+    background-color: #A2AB58;
+}
+.label-success1
+{
+    background-color: #67BCDB;
+}
+.label-success2
+{
+    background-color: #67BCDB;
+}
+#cont1 .thumbnail > img
+{
+    height: 200px;
+    width: 100%;
+}
+#cont2 .thumbnail > img
+{
+    height: 120px;
+    width: 100%;
+}
+#cont3 .thumbnail > img
+{
+    max-height: 300px;
+    width: 100%;
+}
+#owl-demo .owl-item .item img
+{
+    height: 100px;
+	width:200px;
+    border-radius: 3px;
+}
+
+#contTop
+{
+    margin-top: 15px;
+}
+
+#cont1, #cont2, #cont3, #contClient, #cont4
+{
+    margin-bottom: 15px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc #ccc #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 0px 0px 1px;
+    /*
+    #c95903
+    #A2AB58
+    #e96b56
+    #7D1935
+    */
+}
+
+#contTop
+{
+    margin-bottom: 15px;
+}
+
+#cont1 .thumbnail, #cont2 .thumbnail, #cont3 .thumbnail
+{
+    border-radius: 0px;
+}
+
+.mrg_bot
+{
+    margin-bottom: 10px;
+}
+#contTop
+{
+    min-height: 50px;
+}
+#contTop .book
+{
+    background-color: #d9534f;
+    color: #fff;
+    border-radius: 0px;
+    /*#c9003a
+    #f9533b
+    */
+}
+#contTop .book a
+{
+    text-decoration: none;
+}
+
+a, a:hover, a:active, a:focus
+{
+   outline: 0;
+}
+
+#checkBtn
+{
+    /*border-radius: 25px;*/
+    padding: 0px;
+}
+
+#foot
+{
+    background-color: #7E817F;
+}
+#footTop
+{
+    min-height: 200px;
+}
+#footBot
+{
+    background: none repeat scroll 0 0 #111;
+    box-shadow: 0 -4px 4px -2px #222;
+    color: #ddd;
+    margin: 20px 0 0;
+    padding: 30px 0 10px 0;
+    text-shadow: none;
+}
+#footLeft
+{
+    text-align: left;
+}
+#footRight
+{
+    text-align: right;
+}
+#footRight a
+{
+   color: #bada55;
+   text-decoration: none;
+}
+#footRight a:hover
+{
+   color: #e96b56;
+   text-decoration: none;
+}
+.testimon
+{
+    border-color: #ddd;
+    border-width: 0px 3px 0px;
+    /*#A2AB58 #e96b56*/
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+    margin-top: 40px;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#wi-el li img
+{
+    width: 100%;
+    min-height: 165px;
+}
+
+#wi-el
+{
+    padding-left: 0px;
+    margin-left: 0px;
+    width: 100%;
+    height: 153px;
+}
+.windy-demo
+{
+    margin:0px;
+    margin-top: 40px;
+}
+#footTop .thumbnail
+{
+    border-radius: 0px;
+}
+
+.error
+{
+    color: #d9534f;
+}
+#dropdown_fullwidth1 
+{
+	opacity: 1 !important;	
+}
+
+.social-icons ul
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.branch_title_color
+{
+    color: #bada55;
+}
+.jssort01 .c
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.gal
+{
+    background: #ddd url(../images/bg.jpg) repeat top left;
+}
+
+#virtualImg
+{
+    margin-top: 40px;
+}
+
+#virtualImg img
+{
+    width: 50px;
+    height: 50px;
+    float: left;
+}
+
+.navTabBorder
+{   
+    border: #d9534f solid 1px;
+    border-top: 0px;
+}
+.nav
+{
+    background-color: #d9534f;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: #d9534f solid 1px;
+}
+.nav li a
+{
+    color: #FFF;
+}
+.nav li a:hover
+{
+    color: #41ab6b;
+}
+.tabCont , .tabPad
+{
+    padding: 10px;
+}
+
+.checkButton 
+{
+    padding: 0px;
+    margin: 0px;
+    color: #fff;
+}
+.checkButton h4
+{
+    color: #fff;
+}
+
+#home
+{
+    margin-top: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+.fontItalic
+{
+    font-style: italic;
+    
+}
+.aprtext
+{
+    text-align: left;
+}
+.inputClass
+{
+   /*width: 200px;*/ 
+   border: solid #ccc 1px;
+}
+
+#profPic
+{
+    max-width: 90px;
+    min-height: 90px;
+    /*border: #BBB solid 1px;*/
+    box-shadow: 2px 2px 2px #888888, -2px -2px 2px #888888;
+}
+#profPic1
+{
+/*    max-width: 200px;
+    min-height: 200px;
+    border: #BBB solid 1px;*/
+    box-shadow: 2px 2px 2px #888888, -2px -2px 2px #888888;
+}
+.imgBoxShadow
+{
+    box-shadow: 2px 2px 2px #888888, -2px -2px 2px #888888;
+}
+.removeBorderRadius
+{
+    border-radius: 0px;
+}
+
+.clientAdminMinHeight
+{
+    min-height: 100px;
+    max-height: 100px;
+    width: 100%;
+}
+
+
+.google-maps {
+position: relative;
+padding-bottom: 75%;
+height: 0;
+overflow: hidden;
+}
+.google-maps iframe {
+position: absolute;
+top: 0;
+left: 0;
+width: 100% !important;
+height: 100% !important;
+}
+
+#mailPdf a
+{
+    color: #000;
+    text-decoration: none;
+}
+
+#mailPdf a:hover
+{
+    color: #9ada55;
+    text-decoration: none;
+}
